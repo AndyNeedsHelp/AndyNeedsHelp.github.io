@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<style>
+			#top
+				{
+					color:gray;
+					text-align:center;
+					font-family: "Verdana", sans-serif;
+				}
+		</style>
+
+		<!-- link to your script file here -->
+		
+	</head>
+
+	<body style = "background-color: black;">
+	<div id="top">
+		<h1>Fancify my Text</h1>
+		
+		
+		<form action="/from/submit" method="GET">
+			<textarea rows= "4" cols="30" name="text" placeholder="enter some thing will ya?"></textarea>
+		<br/>
+		<input type="submit" value="submit">
+		</form>
+
+		<form>		
+		<fieldset>
+			<legend>fancify</legend>
+
+			<input type="radio" id="fancyShmancy" value="fS">
+			<label for="fancyShmancy">fancy shmancy</label>
+
+			<input type="radio" id="boringbetty" value="bb">
+			<label for="boringbetty">boring betty</label>
+			<br/>
+			<input type="button" value="bigger!" id="big" onclick="fancifymytext.js">
+
+		</fieldset>
+		</form>
+		</div>			
+	</body>
+</html>
