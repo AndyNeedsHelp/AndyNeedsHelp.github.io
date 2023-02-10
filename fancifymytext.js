@@ -1,1 +1,4 @@
-alert("hello everyone! can you see me?");
+function ThisAlertFunction()
+{
+    alert("hello everyone! can you see me?");
+}
