@@ -7,3 +7,8 @@ function ChangeSize()
 {
     document.getElementById("EnterThing").style.fontSize = "24px";
 }
+
+function BackSize()
+{
+    document.getElementById("EnterThing").style.fontSize= "-24px";
+}
