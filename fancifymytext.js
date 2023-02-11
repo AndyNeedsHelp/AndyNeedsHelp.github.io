@@ -10,5 +10,5 @@ function ChangeSize()
 
 function BackSize()
 {
-    document.getElementById("EnterThing").style.fontSize= "10px";
+    document.getElementById("EnterThing").style.fontSize= "8px";
 }
