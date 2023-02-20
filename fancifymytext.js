@@ -26,7 +26,7 @@ function Moo()
 {
     //document.getElementById("EnterThing").style.textTransform = "uppercase";
     var userInput = document.getElementById("EnterThing").value;
-    userInput = userInput.split(".");
-    userInput - userInput.join("-moo");
-    //document.getElementById("EnterThing").value = userInput;
+    userInput = userInput.split(" ");
+    userInput = userInput.join("-moo");
+    document.getElementById("EnterThing").value = userInput;
 }
