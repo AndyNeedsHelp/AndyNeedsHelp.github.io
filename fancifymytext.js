@@ -5,7 +5,7 @@ function ThisAlertFunction()
 
 function ChangeSize()
 {
-    document.getElementById("big").style.fontSize = "24px";
+    document.getElementById("EnterThing").style.fontSize = "24px";
 }
 
 function FancyFancy()
