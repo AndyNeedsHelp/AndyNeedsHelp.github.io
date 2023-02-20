@@ -28,5 +28,5 @@ function Moo()
     var userInput = document.getElementById("EnterThing").value;
     userInput = userInput.split(".");
     userInput - userInput.join("-moo");
-    document.getElementById("EnterThing").value = userInput;
+    //document.getElementById("EnterThing").value = userInput;
 }
