@@ -5,10 +5,15 @@ function ThisAlertFunction()
 
 function ChangeSize()
 {
-    document.getElementById("EnterThing").style.fontSize = "24px";
+    document.getElementById("big").style.fontSize = "24px";
 }
 
-function BackSize()
+function FancyFancy()
 {
-    document.getElementById("EnterThing").style.fontSize= "6px";
+    document.getElementById("EnterThing").style.fontWeight = 'bold';
+}
+
+function BoringBoring()
+{
+    document.getElementById("EnterThing").style.fontWeight = '400';
 }
